@@ -1,9 +1,10 @@
 import { useState } from "react"
 import ExpenseForm from "./components/ExpenseForm"
 import ExpenseList from "./components/ExpenseList"
+import useLocalStorage from "./hooks/useLocalStorage"
 
 function App() {
-  const [expenses, setExpenses] = useState([])
+  const [expenses, setExpenses] = useLocalStorage("expenses", [])
 
   function addExpense(expense) {
     setExpenses(prev => [...prev, expense])
