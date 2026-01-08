@@ -7,6 +7,7 @@ Features:
 - View total expenses
 - Persist data using localStorage
 - Responsive layout (basic)
+- Data persists across page reloads using localStorage
 
 Tech Stack:
 - React (Vite)
