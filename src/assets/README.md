@@ -1,1 +1,0 @@
-Static assets such as images, icons, and videos used by the application.
