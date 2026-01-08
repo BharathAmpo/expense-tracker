@@ -14,9 +14,17 @@ function App() {
     setExpenses(prev => prev.filter(exp => exp.id !== id))
   }
 
+  const totalAmount = expenses.reduce(
+    (sum, expense) => sum + expense.amount,
+    0
+  )
+
   return (
     <main>
       <h1>Expense Tracker</h1>
+      <p>
+        <strong>Total Spent:</strong> ₹{totalAmount}
+      </p>
       <ExpenseForm onAddExpense={addExpense} />
       <ExpenseList
         expenses={expenses}
