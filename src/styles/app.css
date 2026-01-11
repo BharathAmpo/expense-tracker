@@ -47,6 +47,12 @@ input:focus {
   border-color: #4f46e5;
 }
 
+.export-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
 button {
   padding: 0.5rem 0.75rem;
   border: none;

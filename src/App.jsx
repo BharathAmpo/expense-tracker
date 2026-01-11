@@ -91,7 +91,7 @@ function App() {
       <p>
         <strong>Total Spent:</strong> ₹{totalAmount}
       </p>
-      <div style={{ marginBottom: "1rem" }}>
+      <div className="export-actions">
         <button onClick={handlePrint}>
           Print / Save as PDF
         </button>
