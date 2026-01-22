@@ -1,10 +1,11 @@
-Expense Tracker
+# Expense Tracker
+
 A simple expense tracking application built with React to record daily expenses, calculate totals, and persist data in the browser using localStorage. This project focuses on clean component structure and predictable state management.
 
-Live Demo: https://bharathampo.github.io/expense-tracker/
+Live Demo: [website](https://bharathampo.github.io/expense-tracker/)
 
+## Features
 
-Features:
 - Add and delete expenses
 - Categorize expenses
 - View total expenses
@@ -14,10 +15,9 @@ Features:
 - Calculates total expenses dynamically
 - Persists data using localStorage
 
-Tech Stack:
+## Tech Stack
+
 - React (Vite)
 - JavaScript (ES6+)
 - HTML5
 - CSS3
-
-
