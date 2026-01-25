@@ -2,16 +2,14 @@
 
 Live Demo: [website](https://bharathampo.github.io/expense-tracker/)
 
-A simple expense tracking application built with React to record daily expenses, calculate totals, and persist data in the browser using localStorage. This project focuses on clean component structure and predictable state management. A Single Page Application (SPA) built with React to record daily expenses, calculate totals, and ensure client-side persistence using localStorage, with options to export data as PDF, Excel, and Word documents.
+ A Single Page Application (SPA) built with React to record daily expenses, calculate totals, and ensure client-side persistence using localStorage, The application demonstrates clean component structure, predictable state management, and provides options to export expense data as PDF, Excel, and Word documents.
 
 ## Features
 
 - Add and delete expenses
 - Categorize expenses
 - View total expenses
-- Responsive layout (basic)
-- Data persists across page reloads using localStorage
-- Calculates total expenses dynamically
+- Responsive layout
 - Export expense data as PDF, Excel, and Word documents for easy sharing and record-keeping.
 
 ## Tech Stack
@@ -20,6 +18,16 @@ A simple expense tracking application built with React to record daily expenses,
 - JavaScript (ES6+)
 - HTML5
 - CSS3
+- GitHub Pages for deployment
+
+## Concepts Demonstrated
+
+- Component-based architecture
+- Custom Hooks (useLocalStorage)
+- State management with React Hooks
+- Client-side persistence using localStorage
+- Conditional rendering and controlled inputs
+- Production build and deployment with Vite
 
 ## Folder Structure
 
@@ -28,16 +36,16 @@ expense-tracker/
 ├── public/
 │ └── googlee6572223bcfd2310.html
 ├── src/
-│ ├── components/
-│ │ ├── ExpenseForm.jsx
-│ │ ├── ExpenseItem.jsx
-│ │ └── ExpenseList.jsx
-│ ├── hooks/
-│ │ └── useLocalStorage.js
-│ ├── styles/
-│ │ └── app.css
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   │   ├── ExpenseForm.jsx
+│   │   ├── ExpenseItem.jsx
+│   │   └── ExpenseList.jsx
+│   ├── hooks/
+│   │   └── useLocalStorage.js
+│   ├── styles/
+│   │   └── app.css
+│   ├── App.jsx
+│   └── main.jsx
 ├── .gitignore
 ├── README.md
 ├── index.html
