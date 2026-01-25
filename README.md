@@ -1,6 +1,7 @@
 # Expense Tracker
 
 Live Demo: [website](https://bharathampo.github.io/expense-tracker/)
+
 A simple expense tracking application built with React to record daily expenses, calculate totals, and persist data in the browser using localStorage. This project focuses on clean component structure and predictable state management. A Single Page Application (SPA) built with React to record daily expenses, calculate totals, and ensure client-side persistence using localStorage, with options to export data as PDF, Excel, and Word documents.
 
 ## Features
